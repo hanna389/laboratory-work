@@ -1,2 +1,1 @@
-laboratory-work
-lemmatizer + sentence analysis
+laboratory-work: lemmatizer + sentence analysis
