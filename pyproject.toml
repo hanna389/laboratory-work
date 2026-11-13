@@ -1,0 +1,19 @@
+[project]
+name = "lab2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=6.32.0",
+    "pymorphy3>=2.0.6",
+    "pymorphy3-dicts-uk>=2.4.1.1.1663094765",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
